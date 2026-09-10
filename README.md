@@ -1,6 +1,6 @@
 # JPN225 1h OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-98_195_rows-blue)](https://getdata.finance/datasets/jpn225) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/jpn225)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-98_306_rows-blue)](https://getdata.finance/datasets/jpn225) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/jpn225)
 
 ### -> [**Download the full JPN225 dataset on getdata.finance**](https://getdata.finance/datasets/jpn225)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1h OHLCV** for **Nikkei 225** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/jpn225) · **98,195** `1h` rows in the full archive
+- **Free evaluation sample** on GitHub (`1h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/jpn225) · **98,306** `1h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1h` sample updated in sync
 
-> **Sample on GitHub** · `JPN225_1h.csv` (924 rows, `2026-07-07` -> `2026-09-02`, 63.87 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/jpn225)** — **98,195** `1h` rows (full `1m`: 4,718,919), **11 timeframes**, `2008-09-01` -> `2026-09-02`.
+> **Sample on GitHub** · `JPN225_1h.csv` (2,991 rows, `2026-03-10` -> `2026-09-09`, 204.82 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/jpn225)** — **98,306** `1h` rows (full `1m`: 4,718,919), **11 timeframes**, `2008-09-01` -> `2026-09-09`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Nikkei 225 · Index | Nikkei 225 · Index |
 | Timeframes | `1h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1h rows | 924 | **98,195** |
-| Size | 63.87 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/jpn225) |
-| Period | `2026-07-07` -> `2026-09-02` | `2008-09-01` -> `2026-09-02` |
+| 1h rows | 2,991 | **98,306** |
+| Size | 204.82 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/jpn225) |
+| Period | `2026-03-10` -> `2026-09-09` | `2008-09-01` -> `2026-09-09` |
 | File | `JPN225_1h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/jpn225) |
 | Coverage report | — | [JPN225 coverage](https://getdata.finance/coverage/jpn225) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`JPN225_1h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-07T23:00:00+00:00 | 67506.33 | 67751.32 | 67286.33 | 67341.32 | 3443.14259 |
-| 2026-07-08T00:00:00+00:00 | 67341.32 | 68555.82 | 67076.32 | 68426.31 | 27810 |
-| 2026-07-08T01:00:00+00:00 | 68426.31 | 68518.31 | 67781.31 | 67921.33 | 22526 |
-| 2026-07-08T02:00:00+00:00 | 67921.33 | 68096.32 | 67606.32 | 68046.32 | 11241 |
-| 2026-07-08T03:00:00+00:00 | 68046.32 | 68470.83 | 68046.32 | 68051.33 | 8281 |
+| 2026-03-10T19:00:00+00:00 | 54929.34 | 55104.36 | 54669.35 | 54854.35 | 9735 |
+| 2026-03-10T20:00:00+00:00 | 54854.35 | 54944.36 | 54734.84 | 54809.35 | 2296 |
+| 2026-03-10T22:00:00+00:00 | 54829.35 | 54850.35 | 54640.83 | 54755.85 | 532 |
+| 2026-03-10T23:00:00+00:00 | 54755.85 | 55095.84 | 54730.85 | 55055.83 | 1387.15399 |
+| 2026-03-11T00:00:00+00:00 | 55055.83 | 55505.34 | 54915.84 | 55260.84 | 6447 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-01T22:00:00+00:00 | 64874.72 | 64874.72 | 64716.99 | 64796.99 | 380 |
-| 2026-09-01T23:00:00+00:00 | 64796.99 | 64896.51 | 64706.99 | 64807.01 | 2300 |
-| 2026-09-02T00:00:00+00:00 | 64807.01 | 64912.01 | 64372.01 | 64472 | 11346 |
-| 2026-09-02T01:00:00+00:00 | 64472 | 64696.49 | 64226.51 | 64291.5 | 7104 |
-| 2026-09-02T02:00:00+00:00 | 64291.5 | 64291.5 | 64257 | 64261.49 | 17 |
+| 2026-09-08T22:00:00+00:00 | 65047.18 | 65084.51 | 64919.5 | 65054.49 | 96 |
+| 2026-09-08T23:00:00+00:00 | 65054.49 | 65069.51 | 64794.49 | 64939.5 | 1874 |
+| 2026-09-09T00:00:00+00:00 | 64939.5 | 65699.5 | 64939.5 | 65579 | 7348 |
+| 2026-09-09T01:00:00+00:00 | 65579 | 65769 | 65384.49 | 65489.5 | 3445 |
+| 2026-09-09T02:00:00+00:00 | 65489.5 | 65554.01 | 65474.49 | 65534.51 | 169 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **JPN225** archive on **[getdata.finance](https://getdata.finance/datasets/jpn225)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **98,195** rows at `1h`, plus all other timeframes in the same ZIP.
+The complete **JPN225** archive on **[getdata.finance](https://getdata.finance/datasets/jpn225)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **98,306** rows at `1h`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full JPN225 dataset on getdata.finance](https://getdata.finance/datasets/jpn225)**
 
